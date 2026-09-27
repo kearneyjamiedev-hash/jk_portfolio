@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jamie Kearney — software engineer specialising further in cybersecurity, secure engineering and digital forensics.">
+  <title>Data Anonymisation & Ingestion Tool | Jamie Kearney</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">JK</span>
+      <span>Jamie Kearney</span>
+    </a>
+    <button class="menu-btn" data-menu-button aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="nav-links" data-nav-links>
+      <a href="../index.html" class="">Home</a>
+<a href="../projects.html" class="active">Projects</a>
+<a href="../experience.html" class="">Experience</a>
+<a href="../cv.html" class="">CV</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Personal data security project</div>
+      <h1>Data Anonymisation & Ingestion Tool</h1>
+      <p>A Python-based ingestion and transformation framework designed to pseudonymise sensitive fields while preserving relationships needed for downstream processing.</p>
+      <div class="tag-row" style="margin-top:20px;"><span class="tag security">Personal Project</span><span class="tag ">Data Privacy</span><span class="tag ">Python</span><span class="tag ">Deterministic Hashing</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container case-layout">
+      <article class="card case-main">
+        <section><h2>Overview</h2>
+<p>
+The project explores a common data-security problem: how to make operational datasets useful for processing
+or analysis without exposing the original sensitive identifiers unnecessarily.
+</p>
+</section><section><h2>Approach</h2>
+<ul>
+  <li>Process structured CSV-style datasets through a repeatable ingestion workflow.</li>
+  <li>Apply deterministic hashing to selected sensitive fields.</li>
+  <li>Preserve relational consistency so repeated identifiers map consistently across transformed data.</li>
+  <li>Use configuration to select which fields are hashed, transformed or passed through.</li>
+</ul>
+</section><section><h2>Security Relevance</h2>
+<p>
+The project demonstrates practical thinking around pseudonymisation, data minimisation, repeatable processing,
+configuration-driven controls and the trade-off between privacy and downstream data usability.
+</p>
+</section><section><h2>What It Demonstrates</h2>
+<p>
+Python automation, secure data handling, deterministic transformation, data integrity and privacy-aware system design.
+</p>
+</section>
+      </article>
+      <aside class="card case-side">
+        <div class="block"><h3>Status</h3><p>Personal project</p></div><div class="block"><h3>Focus</h3><p>Pseudonymisation<br>Data protection<br>Secure ingestion</p></div><div class="block"><h3>Technology</h3><p>Python<br>Structured data processing<br>Hashing</p></div><div class="block"><h3>Repository</h3><p class="muted">Repository connection can be added later if the project is published.</p></div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>© <span data-year></span> Jamie Kearney</div>
+    <div>Cybersecurity · Secure Engineering · Cloud & Data</div>
+  </div>
+</footer>
+<script src="../assets/app.js"></script>
+
+</body>
+</html>
